@@ -1,5 +1,3 @@
-//Authors: Yuval Kuperberg 200832525
-//		   Yaniv Boneh 201444403
 //Project: TestManager
 //Description: This module is responsible for handling the main grades directory, including extracting the paths to
 // all the student grades directoryies, sending the path and recieving the final result and printing it to the 
