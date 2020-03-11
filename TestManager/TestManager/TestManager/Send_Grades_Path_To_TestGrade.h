@@ -1,0 +1,12 @@
+#ifndef SEND_GRADES_PATH_TO_TESTGRADE_H
+#define SEND_GRADES_PATH_TO_TESTGRADE_H
+#define TIMEOUT_IN_MILLISECONDS 5000
+#define BRUTAL_TERMINATION_CODE 0x55
+#define MAX_NUM_OF_STUDENTS 10
+#define MAX_LENGTH_OF_GRADE 3
+#define MAX_LENGTH_OF_ID_AND_GRADE 13
+#define LENGTH_OF_STRING_TESTGRADE_EXE 15
+
+int creat_process_simple_main(char* simple_expression);
+
+#endif
