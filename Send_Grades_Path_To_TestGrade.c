@@ -1,4 +1,3 @@
-
 //Project: TestManager
 //Description: This module creates a new process and sends the path to the grades directory for each student to
 // the module TestGrade.
@@ -12,7 +11,7 @@
 //Description: The function creates a new Testgrades process for the TestManager to send grades directories to.
 //Parameters: LPTSTR CommandLine - A string that represents the path to a grades directory.
 //			  PROCESS_INFORMATION ProcessInfoPtr - A pointer to a STARTUPINFO struct variable
-//                            containing various ìMicrosoft Windowsî parameters
+//                            containing various ‚ÄúMicrosoft Windows‚Äù parameters
 //Returns: TRUE\FALSE - If the process creation failed the function returnes 0, otherwise a non-zero value
 //         is returned.
 BOOL create_process_simple(LPTSTR CommandLine, PROCESS_INFORMATION *ProcessInfoPtr)
